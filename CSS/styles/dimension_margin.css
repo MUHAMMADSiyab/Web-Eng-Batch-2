@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+}
+
+div {
+  width: 200px;
+  height: 200px;
+  /* line-height: 200px; */
+  background: pink;
+  /* margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 200px; 
+  margin-bottom: 200px; */
+  margin: 100px auto;
+  padding: 50px;
+}
