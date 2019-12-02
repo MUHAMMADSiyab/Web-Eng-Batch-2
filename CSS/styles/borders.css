@@ -1,0 +1,12 @@
+div {
+  width: 200px;
+  height: 200px;
+  background: pink;
+  margin: 20px auto;
+  /* border-width: 20px;
+  border-color: rebeccapurple;
+  border-style: solid; */
+  border: 20px tomato ridge;
+  /* border-top: 30px solid #000; */
+  border-radius: 50% 50% 50% 0;
+}
