@@ -1,0 +1,67 @@
+/* All Selector */
+* {
+  margin: 0 !important;
+}
+
+/* Class/ID Selector */
+
+.mydiv {
+  width: 100px;
+  height: 100px;
+  background: purple;
+  margin: 10px;
+}
+
+#mydiv2 {
+  width: 200px;
+  height: 200px;
+  background: tomato;
+}
+
+/* RELATION BASED Selectors */
+
+/* All Children */
+.container a {
+  /* color: orange; */
+}
+
+/* Direct Children */
+.container > a {
+  /* color: rgb(122, 105, 94); */
+}
+
+/* Siblings */
+
+/* Direct Sibling */
+h1 + h2 {
+  /* color: rgb(70, 175, 0); */
+}
+
+/* All Siblings */
+h1 ~ h2 {
+  color: rgb(209, 1, 81);
+}
+
+/* pseudo selectors  */
+button {
+  width: 100px;
+  height: 35px;
+  line-height: 35px;
+  color: #fff;
+  background: tomato;
+  outline: none;
+  border: 0;
+  border-radius: 20px;
+}
+button:hover {
+  background: purple;
+}
+
+button:focus {
+  background: rgb(44, 4, 21);
+}
+
+ul li:nth-child() {
+  color: rgb(177, 174, 9);
+  font-weight: bold;
+}
