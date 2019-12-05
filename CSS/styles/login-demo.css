@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css?family=Muli:300,400,500&display=swap");
+
+* {
+  margin: 0;
+}
+
+body {
+  background: url(../images/bg.jpg);
+  background-size: 100%;
+}
+
+.container {
+  width: 33%;
+  height: 400px;
+  margin: 100px auto;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  position: relative;
+}
+
+.container #user-icon {
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  top: -40px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+.container h2 {
+  text-align: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50px;
+  margin: 0 auto;
+  font-family: sans-serif;
+  color: #fff;
+  font-family: "Muli", sans-serif;
+  font-weight: 300;
+}
+.container form {
+  width: 100%;
+  height: 300px;
+  position: absolute;
+  bottom: 10px;
+}
+
+.container form .form-group {
+  width: 100%;
+}
+
+.container form .form-group label {
+  margin-left: 6%;
+  font-size: 80%;
+  color: #fff;
+  font-family: sans-serif;
+  font-family: "Muli", sans-serif;
+  font-weight: 500;
+}
+.container form .form-group .form-control {
+  width: 88%;
+  margin: 10px 5%;
+  height: 45px;
+  outline: none;
+  border-radius: 30px;
+  border: 0;
+  padding-left: 2%;
+  background: rgba(0, 0, 0, 0.4);
+  color: #fff;
+}
+.container form .form-group .form-control:focus {
+  background: rgba(0, 0, 0, 0.7);
+}
+.container form .form-group .btn-submit {
+  width: 20%;
+  height: 45px;
+  background: #178fea;
+  color: #fff;
+  margin: 20px 5%;
+  border: 0;
+  outline: none;
+  border-radius: 30px;
+  cursor: pointer;
+  font-family: "Muli", sans-serif;
+  font-weight: 500;
+}
+.container form .form-group .btn-submit:hover {
+  background: #fff;
+  color: #178fea;
+}
+
+.btn-block {
+  width: 90% !important;
+}
