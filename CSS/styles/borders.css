@@ -1,12 +1,21 @@
 div {
-  width: 200px;
-  height: 200px;
+  width: 500px;
+  height: 500px;
   background: pink;
   margin: 20px auto;
   /* border-width: 20px;
   border-color: rebeccapurple;
   border-style: solid; */
   border: 20px tomato ridge;
+  /* border-left-style: solid; */
   /* border-top: 30px solid #000; */
-  border-radius: 50% 50% 50% 0;
+  border-radius: 50% 10% 50% 0;
+  background: url(../images/bg.jpg) no-repeat 100%;
 }
+
+/* img {
+  width: inherit;
+  height: inherit;
+  border-radius: inherit;
+  
+} */
