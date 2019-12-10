@@ -1,0 +1,25 @@
+@keyframes anim {
+  0% {
+    top: 0;
+    left: 0;
+  }
+  100% {
+    top: 300px;
+    left: 300px;
+    background: seagreen;
+  }
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  background: orangered;
+  position: relative;
+  /* animation-name: anim;
+  animation-duration: 5s;
+  animation-delay: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards; */
+  animation: anim 5s 0s linear infinite;
+}

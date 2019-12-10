@@ -1,0 +1,19 @@
+/* Spin */
+@keyframes spin {
+  from {
+    transform: scale(0.1, 0.1);
+  }
+  to {
+    transform: scale(1, 1);
+  }
+}
+
+.spinner {
+  width: 250px;
+  height: 250px;
+  margin: 50px auto;
+  border-radius: 50%;
+  background: transparent;
+  border: 20px dotted purple;
+  animation: spin 1s infinite ease-out;
+}
