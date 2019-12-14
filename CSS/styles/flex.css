@@ -1,0 +1,22 @@
+.box {
+  width: 200px;
+  padding: 10px;
+}
+.box:nth-child(odd) {
+  background: grey;
+}
+.box:nth-child(even) {
+  background: lightgrey;
+}
+
+.container {
+  height: 600px;
+  background: pink;
+  display: flex;
+  /* flex-direction: row; */
+  /* flex-direction: column; */
+  /* flex-flow: row wrap; */
+  /* flex-wrap: wrap; */
+  justify-content: center; /* Horizontal */
+  align-items: center; /* Vertical */
+}
