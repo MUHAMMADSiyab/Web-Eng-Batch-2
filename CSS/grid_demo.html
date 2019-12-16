@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>CSS Grid Demo</title>
+    <style>
+      .gallery-wrapper {
+        display: grid;
+        grid-template: 200px / repeat(6, 2fr);
+        grid-gap: 15px;
+      }
+      .gallery-wrapper .gallery-item {
+        border: 2px double lightgray;
+        padding: 5px;
+        border-radius: 15px;
+      }
+      .gallery-wrapper .gallery-item img {
+        width: 100%;
+        height: 100%;
+        border-radius: inherit;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="gallery-wrapper">
+      <div class="gallery-item">
+        <img src="http://getwallpapers.com/wallpaper/full/8/a/d/286879.jpg" />
+      </div>
+      <div class="gallery-item">
+        <img src="http://getwallpapers.com/wallpaper/full/8/a/d/286879.jpg" />
+      </div>
+      <div class="gallery-item">
+        <img src="http://getwallpapers.com/wallpaper/full/8/a/d/286879.jpg" />
+      </div>
+      <div class="gallery-item">
+        <img src="http://getwallpapers.com/wallpaper/full/8/a/d/286879.jpg" />
+      </div>
+      <div class="gallery-item">
+        <img src="http://getwallpapers.com/wallpaper/full/8/a/d/286879.jpg" />
+      </div>
+      <div class="gallery-item">
+        <img src="http://getwallpapers.com/wallpaper/full/8/a/d/286879.jpg" />
+      </div>
+    </div>
+  </body>
+</html>
