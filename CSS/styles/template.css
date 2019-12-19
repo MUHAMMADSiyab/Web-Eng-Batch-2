@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,600,700&display=swap");
+/* Global */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --primary-color: #02726c;
+  --primary-dark: #043d3a;
+  --primary-light: #aefffb;
+  --secondary-color: #303030;
+  --secondary-light: #c5c5c5;
+}
+
+body {
+  background: #f7f7f7;
+  font-family: "Work Sans", sans-serif;
+}
+
+/* Header area - Navbar */
+nav {
+  width: 100%;
+  height: 60px;
+  background-color: var(--primary-color);
+  line-height: 60px;
+}
+
+nav .container {
+  width: 90%;
+  display: grid;
+  grid-template: 100% / 7fr 5fr;
+}
+
+nav .container .site-brand a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.4rem;
+  margin-left: 20px;
+  font-weight: 500;
+}
+
+nav .container .navbar-nav {
+  display: grid;
+  grid-template: 100% / repeat(5, 2fr);
+  list-style: none;
+}
+
+nav .container .navbar-nav li {
+  background-color: var(--primary-color);
+}
+
+nav .container .navbar-nav li a {
+  text-decoration: none;
+  color: var(--primary-light);
+  text-align: center;
+  display: block;
+}
+nav .container .navbar-nav li a:hover {
+  background: var(--primary-dark);
+  transition: all 0.4s ease-in;
+}
+
+/* Showcase area */
+#showcase-area {
+  width: 100%;
+  height: 550px;
+  background: url(../images/download.jpg) no-repeat center / 100%;
+  position: relative;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.overlay-showcase {
+  background: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#showcase-area h1 {
+  position: relative;
+  color: #fff;
+  font-size: 4rem;
+  font-weight: 300;
+  text-align: center;
+  margin-top: 150px;
+}
+
+#showcase-area #showcase-btn {
+  width: 15%;
+  height: 45px;
+  line-height: 45px;
+  margin: 30px auto;
+  position: relative;
+}
+
+#showcase-area #showcase-btn a {
+  border: 0.08rem solid #fff;
+  text-decoration: none;
+  font-size: 1.2rem;
+  text-align: center;
+  display: block;
+  height: inherit;
+  color: #fff;
+}
+
+#showcase-area #showcase-btn a:hover {
+  background: #fff;
+  color: var(--primary-color);
+  transition: all 0.5s ease-out;
+}
+
+/* Features */
+#features {
+  width: 90%;
+  margin: 70px auto;
+  display: grid;
+  grid-template: auto / repeat(4, 3fr);
+  grid-gap: 30px;
+}
+
+#features .feature {
+  /* border: 1px solid lightgray; */
+  padding: 15px;
+  box-shadow: 0px 0px 15px lightgray;
+}
+
+#features .feature h3 {
+  text-align: center;
+  font-weight: 300;
+}
+#features .feature p {
+  margin-top: 10px;
+  text-align: justify;
+  color: var(--secondary-color);
+}
+
+/* Side by Side */
+#sidebyside {
+  width: 100%;
+  height: 350px;
+  display: grid;
+  grid-template-columns: repeat(2, 6fr);
+}
+
+#sidebyside img {
+  width: 100%;
+  height: 100%;
+}
