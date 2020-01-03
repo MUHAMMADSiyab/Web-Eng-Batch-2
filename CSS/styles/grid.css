@@ -6,12 +6,16 @@ body {
 .wrapper {
   margin-top: 50px;
   display: grid;
-  grid-template: 200px / repeat(12, 1fr);
-  grid-column-gap: 20px;
-  grid-row-gap: 20px;
+  grid-template-columns: 2fr 6fr 4fr;
+  /* grid-template-rows: 200px;
+  grid-template-columns: repeat(12, 1fr); */
+  /* grid-column-gap: 20px;
+  grid-row-gap: 20px; */
+  grid-gap: 20px;
 }
 
 .item {
   background: rgb(192, 192, 192);
   padding: 12px;
+  height: 200px;
 }
