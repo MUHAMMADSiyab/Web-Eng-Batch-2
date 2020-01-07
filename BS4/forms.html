@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <title>BS4 Forms</title>
+  </head>
+  <body>
+    <div class="container mt-5">
+      <!-- For inline form, use `form-inline` class -->
+      <form class="was-validated">
+        <div class="form-group">
+          <label for="email">E-Mail</label>
+          <input
+            type="email"
+            id="email"
+            placeholder="Enter your email"
+            class="form-control form-control-sm"
+            required
+          />
+          <span class="valid-feedback">OK</span>
+          <span class="invalid-feedback">The field is required</span>
+        </div>
+
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input
+            type="password"
+            id="password"
+            placeholder="Enter your email"
+            class="form-control form-control-sm"
+            required
+          />
+          <span class="valid-feedback">OK</span>
+          <span class="invalid-feedback">The field is required</span>
+        </div>
+
+        <div class="form-group">
+          <input type="submit" value="SIGN IN" class="btn btn-dark" />
+        </div>
+      </form>
+      
+
+      Downloads <span class="badge badge-success">30,000</span>
+      Downloads <span class="badge badge-danger">30,000</span>
+      Downloads <span class="badge badge-primary">30,000</span>
+      Downloads <span class="badge badge-info">30,000</span>
+  </body>
+</html>
