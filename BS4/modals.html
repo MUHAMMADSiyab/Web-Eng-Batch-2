@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/fa/css/all.min.css" />
+    <title>BS4 Modals / Dialog Boxes</title>
+  </head>
+  <body>
+    <div class="container mt-5">
+      <!-- Trigger -->
+      <button
+        class="btn btn-primary"
+        data-toggle="modal"
+        data-target="#myModal"
+      >
+        Show modal
+      </button>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="myModal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4>Add User</h4>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <input
+                  type="text"
+                  name=""
+                  placeholder="Username"
+                  id=""
+                  class="form-control"
+                />
+              </div>
+
+              <div class="form-group">
+                <input
+                  type="password"
+                  name=""
+                  placeholder="Password"
+                  id=""
+                  class="form-control"
+                />
+              </div>
+
+              <div class="form-group">
+                <input
+                  type="submit"
+                  value="CREATE ACCOUNT"
+                  class="btn btn-success btn-block btn-sm"
+                />
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-light" data-dismiss="modal">Cancel</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./js/jquery-3.2.1.slim.min.js"></script>
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+  </body>
+</html>

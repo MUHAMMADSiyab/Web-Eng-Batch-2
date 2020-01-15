@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/fa/css/all.min.css" />
+    <title>BS4 Tabs</title>
+  </head>
+  <body>
+    <div class="container mt-5">
+      <!-- Nav links -->
+      <ul class="nav nav-tabs nav-justified">
+        <li class="nav-item">
+          <a href="#home" data-toggle="tab" class="nav-link active">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="#contact" data-toggle="tab" class="nav-link">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a href="#about" data-toggle="tab" class="nav-link">About</a>
+        </li>
+        <li class="nav-item">
+          <a href="#team" data-toggle="tab" class="nav-link">Team</a>
+        </li>
+      </ul>
+
+      <!-- Tabs -->
+      <div class="tab-content">
+        <div class="tab-pane container active" id="home">
+          <h1>This is the home tabs</h1>
+        </div>
+
+        <div class="tab-pane container fade" id="contact">
+          <h1>This is the contact tab</h1>
+        </div>
+
+        <div class="tab-pane container fade" id="about">
+          <h1>This is the about tab</h1>
+        </div>
+
+        <div class="tab-pane container fade" id="team">
+          <h1>This is the team tab</h1>
+        </div>
+      </div>
+    </div>
+
+    <script src="./js/jquery-3.2.1.slim.min.js"></script>
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+  </body>
+</html>
