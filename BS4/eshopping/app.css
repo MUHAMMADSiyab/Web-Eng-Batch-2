@@ -1,0 +1,27 @@
+* {
+  margin: 0 !important;
+  /* padding: 0 !important; */
+}
+#categories-left {
+  background-color: rgb(106, 150, 4);
+}
+
+#categories-left .nav-link {
+  color: rgb(255, 255, 255);
+}
+
+#categories-left .nav-link:hover {
+  background-color: rgb(35, 48, 5);
+}
+
+.price {
+  color: rgb(106, 150, 4) !important;
+}
+
+.card {
+  box-shadow: 0px 0px 10px lightgray;
+}
+
+footer {
+  margin-top: 150px !important;
+}
