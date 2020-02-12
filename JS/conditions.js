@@ -11,7 +11,7 @@ if (x === y) {
 
 var fruit = "mango";
 
-// Template Literals
+// Template Literals `String ${ var }`
 
 // Switch
 switch (fruit) {
