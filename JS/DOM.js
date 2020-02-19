@@ -2,7 +2,7 @@
 
 document.title = "Something else";
 
-console.log(window.screen.availWidth);
+console.log(window.screen.height);
 
 // console.log(document.title);
 
@@ -21,8 +21,8 @@ const user = {
 user.firstname = "Sara";
 
 const h1 = document.getElementById("content");
-// h1.innerText = "<i>My Heading</i>   This is somthing else";
-// h1.innerHTML = "My Heading";
+h1.innerHTML = "<i>My Heading</i>   This is somthing else";
+h1.innerText = "My Heading";
 // h1.textContent = "<i>My Heading</i>   This is somthing else";
 
 console.log(h1);
