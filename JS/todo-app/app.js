@@ -66,6 +66,10 @@ function deleteTodo(e) {
 
 todosList.addEventListener("click", activateItem);
 
+/**
+ * @method activateItem
+ * @desc Activates todo item
+ */
 function activateItem(e) {
   if (e.target.className === "list-group-item") {
     const items = document.getElementsByClassName("list-group-item");
