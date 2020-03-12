@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    />
+    <script src="./app.js" defer></script>
+    <title>JS Age Calculator</title>
+  </head>
+  <body>
+    <div class="container mt-5">
+      <div class="row justify-content-center">
+        <div class="col-sm-12">
+          <div class="card">
+            <div class="card-header">
+              <span class="font-weight-bold">AGE CALCULATOR</span>
+            </div>
+            <div class="card-body">
+              <form id="age-form">
+                <div class="form-group">
+                  <label for="dob">Date of Birth</label>
+                  <input type="date" id="dob" class="form-control" />
+                </div>
+                <div class="form-group">
+                  <input
+                    type="submit"
+                    value="Find age"
+                    class="btn btn-primary"
+                  />
+                </div>
+              </form>
+            </div>
+            <div class="card-footer">
+              <h4 id="result"></h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
