@@ -32,8 +32,6 @@ function getTodos() {
   list.innerHTML = output;
 }
 
-getTodos();
-
 // Add todo method
 function addTodo(newTodo, callback) {
   setTimeout(() => {
