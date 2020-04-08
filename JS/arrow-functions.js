@@ -2,7 +2,7 @@
 const sayHello = () => ({
   name: "john",
   age: 23,
-  married: false
+  married: false,
 });
 
 // console.log(sayHello());
@@ -15,7 +15,7 @@ const userdata = {
   age: 20,
   walk: () => {
     console.log(this.name);
-  }
+  },
 };
 
 userdata.walk();
@@ -31,7 +31,7 @@ btn.addEventListener("click", () => {
 
 const numbers = [1, 2, 3, 5, 8];
 
-numbers.forEach(item => console.log(item));
+numbers.forEach((item) => console.log(item));
 
 // const test = param1 => param1;
 
@@ -42,5 +42,34 @@ const test = () =>
 
 const ud = {
   name: "john",
-  email: "abc@gmail.com"
+  email: "abc@gmail.com",
 };
+
+// const demo = (name, age) => ({
+//   name,
+//   age,
+// });
+
+// console.log(demo("john", 20));
+
+console.log(this);
+
+// const mybtn = document.getElementById("btn-2");
+
+// mybtn.addEventListener("click", () => {
+//   console.log(this);
+// });
+
+// const mydata = {
+//   name: "siyab",
+//   age: 23,
+//   walk: () => {
+//     console.log(this);
+//   },
+// };
+
+// mydata.walk();
+
+const items = [12, 232, 345, 54];
+
+items.forEach((item) => console.log(item));

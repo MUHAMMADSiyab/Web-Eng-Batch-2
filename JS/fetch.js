@@ -6,7 +6,7 @@ async function getUsers() {
 
   let output = "";
 
-  data.forEach(user => {
+  data.forEach((user) => {
     output += `<li>${user.name}</li>`;
   });
 
