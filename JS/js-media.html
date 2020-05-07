@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript - Accessing Media devices</title>
+    <style>
+      body {
+        height: 100%;
+      }
+      .video-container {
+        display: flex;
+        height: 500px;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .video-container #camvideo {
+        flex-basis: 50%;
+        height: 500px;
+        border: 5px double #000;
+        border-radius: 10px;
+        filter: brightness(200%);
+      }
+
+      .wrapper {
+        flex-basis: 50%;
+      }
+
+      button {
+        margin-top: 20px;
+        width: 20%;
+        height: 45px;
+        background-color: teal;
+        border: 0;
+        outline: none;
+        color: #fff;
+        font-family: sans-serif;
+        font-size: 100%;
+      }
+      canvas {
+        width: 500px;
+        height: 500px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="video-container">
+      <video autoplay id="camvideo"></video>
+
+      <div class="wrapper">
+        <canvas id="ss-canvas"></canvas>
+      </div>
+    </div>
+
+    <button id="take">Take ScreenShot</button>
+
+    <script src="./media.js"></script>
+  </body>
+</html>
